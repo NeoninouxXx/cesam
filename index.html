@@ -6,15 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
-    <script src="https://kit.fontawesome.com/76303c02f1.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/76303c02f1.js"
+      crossorigin="anonymous"
+    ></script>
 
     <title>CESAM</title>
   </head>
   <body>
-    <header>
-      <nav class="navbar navbar-expand-lg bg-light">
+    <header id="acceuil">
+      <nav class="navbar navbar-expand-lg bg-light fixed-top" id="acceuil">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"
+          <a class="navbar-brand" href="#acceuil"
             ><img src="assets/img/navbar.png" /><img
           /></a>
           <button
@@ -31,8 +34,11 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
-                  >Découvrir</a
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#presentation"
+                  >Présentation</a
                 >
               </li>
               <li class="nav-item">
@@ -45,10 +51,48 @@
           </div>
         </div>
       </nav>
-      <button type="button" class="btn btn-light btn-bottom">
+      <a class="btn btn-light btn-bottom" href="#presentation">
         <i class="fa-sharp fa-solid fa-arrow-down"></i>
-      </button>
+      </a>
     </header>
+    <section id="presentation">
+      <h1 class="text-center mb-5">Présentation</h1>
+      <div class="container">
+        <div class="row">
+          <div class="text col-12 mt-5 col-md-6">
+            <p>
+              Cesam est une entreprise qui intervient dans le secteur des résaux télécoms.
+              Crée en 2022 par TURPIN Xavier aprés 15 ans d'experience en tant que technicien.
+              Aujourdhui cesam intervient sur les différentes infrastructure de télécomunication sur l'ile. 
+              Cesam s'occupe en partie du déploiment et de la maintenance d'une partie du reseau fibre sur 
+              l'ile de la reunion.
+              Le raccordement des abonnés fait également partie des préstation proposées. 
+              Pour résumer CESAM est une jeune entreprise qui dispose a à la fois de l'experience de ses collaborateur et
+               de la vison  plus moderne du métier.
+            </p>
+          </div>
+          <div class="img col-12 mt-5 col-md-6">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="assets/img/imgSectionPresentation.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">TURPIN Xavier</h5>
+                    <p class="card-text">Téchnicien Télécom depuis 2009</p>
+                    <p>habilitation travaux en hauteur</p>
+                    <p>habilitaion éléctrique</p>
+                    <p>Maitrise support cuivre (ADSL) ET Fibre optique</p>
+                    <p class="card-text"><small class="text-muted">Géreant de Cesam</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <script src="assets/js/bootstrap.bundle.min.js"></script>
   </body>
