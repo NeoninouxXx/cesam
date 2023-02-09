@@ -2,9 +2,12 @@ const navbarToggleButton = document.querySelector(".navbar-toggler");
 const navbarToggleIcon = document.querySelector(".navbar-toggler-icon");
 const iconClose = document.querySelector(".close");
 let toggle = false;
-const navLink = document.querySelector(".nav-link");
+
 
 iconClose.style.display = "none";
+
+
+
 
 navbarToggleButton.addEventListener("click", swipeIcone);
 

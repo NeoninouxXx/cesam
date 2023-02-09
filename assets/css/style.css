@@ -39,9 +39,7 @@
   max-width: 600px;
 }
 
-.carouselImg {
-  margin-top: 75px;
-}
+
 
 #processus {
   background-color: #f5cb5c;
@@ -50,4 +48,7 @@
 .card {
   padding: 0;
 }
-
+.imgCarousel{
+  min-height: 250px;
+  margin-top: 75px;
+}
