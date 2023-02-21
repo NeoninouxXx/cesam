@@ -52,7 +52,7 @@
 }
 .imgCarousel {
   min-height: 250px;
-  padding-top: 75px;
+  
 }
 
 .section-header {
@@ -61,19 +61,35 @@
   padding: 30px;
 }
 
-.section-body{
+.section-body {
   height: 100vh;
-  background-color:#333533 ;
+  background-color: #333533;
   margin-top: -40px;
 }
 
-.icon{
+.icon {
   font-size: 150px;
   color: #cfdbd5;
 }
 
-.ss-titre{
+.ss-titre {
   color: #cfdbd5;
   font-size: 20px;
   padding: 5px 10px;
 }
+
+.navbar-spawn {
+  animation: spawn 0.5s;
+}
+
+
+@keyframes spawn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
