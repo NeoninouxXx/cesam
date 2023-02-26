@@ -1,95 +1,98 @@
 .navbarImage {
-  width: 50px;
-  border-radius: 50%;
+    width: 50px;
+    border-radius: 50%;
 }
 .nav-link {
-  color: white;
+    color: white;
 }
 .nav-link:hover {
-  color: #f5cb5c;
+    color: #f5cb5c;
 }
 
 .navbar-toggler {
-  background-color: #e8eddf;
+    background-color: #e8eddf;
 }
 
 #presentation {
-  background-color: #cfdbd5;
+    background-color: #cfdbd5;
 }
 .title {
-  font-family: "Prompt", sans-serif;
+    font-family: "Prompt", sans-serif;
 }
 
 .navbar-toggler {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 50px;
-  height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 35px;
 }
 .logoCenter {
-  max-width: 250px;
-  border-radius: 50%;
-  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    max-width: 250px;
+    border-radius: 50%;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 .textPresentation {
-  font-size: 22px;
+    font-size: 22px;
 }
 .imgPresentation {
-  max-width: 600px;
-  width: 100%;
+    max-width: 600px;
+    width: 100%;
 }
 
 #processus {
-  background-color: #f5cb5c;
+    background-color: #f5cb5c;
 }
 
 .card {
-  padding: 0;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 0;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .imgCarousel {
-  min-height: 250px;
-  
+    min-height: 250px;
 }
 
 .section-header {
-  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
-  background-color: #cfdbd5;
-  padding: 30px;
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+    background-color: #cfdbd5;
+    padding: 30px;
 }
 
 .section-body {
-  height: 100vh;
-  background-color: #333533;
-  margin-top: -40px;
+    height: 100vh;
+    background-color: #333533;
+    margin-top: -40px;
 }
 
 .icon {
-  font-size: 150px;
-  color: #cfdbd5;
+    font-size: 150px;
+    color: #cfdbd5;
 }
 
+
+
 .ss-titre {
-  color: #cfdbd5;
-  font-size: 20px;
-  padding: 5px 10px;
+    color: #cfdbd5;
+    font-size: 20px;
+    padding: 5px 10px;
 }
 
 .navbar-spawn {
-  animation: spawn 0.5s;
+    animation: spawn 0.5s;
 }
-
+.navbar-kill {
+    animation: kill 0.5s;
+}
 
 @keyframes spawn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
+
 
 
