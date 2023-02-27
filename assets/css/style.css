@@ -60,7 +60,6 @@
 }
 
 .section-body {
-    
     background-color: #333533;
     margin-top: -40px;
 }
@@ -70,12 +69,10 @@
     color: #cfdbd5;
 }
 
-
-
 .ss-titre {
     color: #cfdbd5;
     font-size: 20px;
-    padding: 5px 10px;
+    padding: 5px 50px;
 }
 
 .navbar-spawn {
@@ -94,5 +91,26 @@
     }
 }
 
+footer {
+    background-color: black;
+    padding-bottom: 20px;
+   
+}
 
+.text-footer {
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
 
+.border-rigth{
+    border-right: solid 1px white;
+}
+
+.footer-link{
+    color: white;
+    font-size: 30px;
+    
+}
