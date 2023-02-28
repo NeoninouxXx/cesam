@@ -13,7 +13,16 @@ function swipeIcone() {
     if (toggle) {
         iconClose.style.display = "block";
         navbarToggleIcon.style.display = "none";
+        navbarToggleButton.setAttribute("disabled", "");
+        setTimeout(() => {
+            navbarToggleButton.removeAttribute("disabled");
+        }, 300);
     } else {
+        navbarToggleButton.setAttribute("disabled", "");
+        setTimeout(() => {
+            navbarToggleButton.removeAttribute("disabled");
+        }, 300);
+
         iconClose.style.display = "none";
         navbarToggleIcon.style.display = "block";
     }

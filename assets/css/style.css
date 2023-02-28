@@ -94,7 +94,6 @@
 footer {
     background-color: black;
     padding-bottom: 20px;
-   
 }
 
 .text-footer {
@@ -105,12 +104,14 @@ a {
     color: white;
 }
 
-.border-rigth{
+.border-rigth {
     border-right: solid 1px white;
 }
 
-.footer-link{
+.footer-link {
     color: white;
     font-size: 30px;
-    
+}
+li {
+    list-style-type: none;
 }
