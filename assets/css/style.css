@@ -27,6 +27,9 @@
     width: 50px;
     height: 35px;
 }
+.carousel-item img {
+    max-height: 700px;
+}
 .logoCenter {
     max-width: 250px;
     border-radius: 50%;
