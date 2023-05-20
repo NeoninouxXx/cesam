@@ -13,8 +13,9 @@
     background-color: #e8eddf;
 }
 
-#presentation {
+#presentation , #nosServices {
     background-color: #cfdbd5;
+    
 }
 .title {
     font-family: "Prompt", sans-serif;
@@ -41,6 +42,11 @@
 .imgPresentation {
     max-width: 600px;
     width: 100%;
+}
+.services{
+    max-width: 350px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #processus {
@@ -117,4 +123,8 @@ a {
 }
 li {
     list-style-type: none;
+}
+
+.bi-ethernet , .bi-hammer, .bi-camera-video-fill{
+    font-size: 100px;  
 }
