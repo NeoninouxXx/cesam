@@ -13,7 +13,7 @@
     background-color: #e8eddf;
 }
 
-#presentation , #nosServices {
+#presentation ,#nosServices {
     background-color: #cfdbd5;
     
 }
@@ -29,7 +29,7 @@
     height: 35px;
 }
 .carousel-item img {
-    max-height: 700px;
+    max-height: 65vh;
 }
 .logoCenter {
     max-width: 250px;
@@ -58,7 +58,7 @@
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
         rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-.imgCarousel {
+.imgCarousel-1 {
     min-height: 250px;
 }
 
@@ -125,6 +125,6 @@ li {
     list-style-type: none;
 }
 
-.bi-ethernet , .bi-hammer, .bi-camera-video-fill{
-    font-size: 100px;  
+.service-icones{
+    font-size: 100px;
 }
